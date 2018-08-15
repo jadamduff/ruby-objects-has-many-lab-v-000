@@ -5,7 +5,7 @@ class Artist
   end
 
   def name.songs
-    songs = []
+    @songs = []
   end
 
   def self.add_song(song)
